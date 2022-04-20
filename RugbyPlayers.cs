@@ -8,14 +8,14 @@ namespace Rugby_Opgave
 {
     internal class RugbyPlayers
     {
-        public string[] AddRugbyPlayers()
+        public List<string> AddRugbyPlayers()
         {
-            string[] players = new string[5];
-            players[0] = "Maro Itoje";
-            players[1] = "Beaden Barrett";
-            players[2] = "Owen Farrell";
-            players[3] = "Cheslin Kolbe";
-            players[4] = "Eben Etzebeth";
+            List<string> players = new List<string>();
+            players.Add("Maro Itoje");
+            players.Add("Beaden Barrett");
+            players.Add("Owen Farrell"); 
+            players.Add("Cheslin Kolbe");
+            players.Add("Eben Etzebeth");
 
             return players;
         }
